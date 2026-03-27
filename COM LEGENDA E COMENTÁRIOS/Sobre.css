@@ -1,0 +1,145 @@
+/* ========================================================= */
+/* ESTILO GERAL DA PÁGINA                                    */
+/* ========================================================= */
+
+body {
+    color: #333333;
+    /* Define a cor padrão do texto */
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /* Define a fonte principal da página */
+
+    line-height: 1.6;
+    /* Aumenta o espaçamento entre linhas para facilitar a leitura */
+
+    margin: 0;
+    /* Remove a margem padrão do navegador */
+
+    padding: 0;
+    /* Remove o espaçamento interno padrão */
+
+    background-color: #fafafa;
+    /* Define uma cor de fundo clara para a página */
+}
+
+
+/* ========================================================= */
+/* TÍTULO PRINCIPAL                                          */
+/* ========================================================= */
+
+h1 {
+    background-image: url(../img/sobre-background.jpg);
+    /* Coloca uma imagem de fundo no título principal */
+
+    background-size: cover;
+    /* Faz a imagem ocupar toda a área do título */
+
+    color: white;
+    /* Deixa o texto branco para destacar sobre o fundo */
+
+    padding: 20px;
+    /* Cria espaço interno ao redor do texto */
+
+    text-align: center;
+    /* Centraliza o texto */
+
+    margin: 0;
+    /* Remove margem externa */
+}
+
+
+/* ========================================================= */
+/* SUBTÍTULOS                                                */
+/* ========================================================= */
+
+h2 {
+    border-bottom: 2px solid #333333;
+    /* Adiciona uma linha abaixo do subtítulo */
+
+    margin-top: 40px;
+    /* Cria espaço acima do subtítulo */
+
+    padding-bottom: 5px;
+    /* Dá um pequeno espaço entre o texto e a linha */
+}
+
+
+/* ========================================================= */
+/* PARÁGRAFOS                                                */
+/* ========================================================= */
+
+p {
+    padding: 0 60px;
+    /* Adiciona espaçamento lateral à esquerda e à direita */
+
+    text-indent: 20px;
+    /* Cria recuo na primeira linha do parágrafo */
+
+    margin-top: 15px;
+    /* Adiciona espaço acima de cada parágrafo */
+}
+
+
+/* ========================================================= */
+/* IMAGENS COM MOLDURA                                       */
+/* ========================================================= */
+
+figure {
+    background-color: #F2EDED;
+    /* Cor de fundo suave para destacar a imagem */
+
+    border: 1px solid #ccc;
+    /* Borda fina ao redor da imagem */
+
+    text-align: center;
+    /* Centraliza a imagem e a legenda */
+
+    padding: 15px;
+    /* Espaço interno entre o conteúdo e a borda */
+
+    margin: 30px auto;
+    /* Espaço externo e centralização horizontal */
+
+    width: 70%;
+    /* Define largura da área da figura */
+
+    border-radius: 8px;
+    /* Arredonda os cantos para um visual mais moderno */
+}
+
+
+/* ========================================================= */
+/* LEGENDA DAS IMAGENS                                       */
+/* ========================================================= */
+
+figcaption {
+    font-style: italic;
+    /* Deixa a legenda em itálico */
+
+    margin-top: 10px;
+    /* Cria espaço entre a imagem e a legenda */
+
+    color: #555;
+    /* Define uma cor cinza para a legenda */
+}
+
+
+/* ========================================================= */
+/* LISTA DE DIFERENCIAIS                                     */
+/* ========================================================= */
+
+ul {
+    padding: 0 80px;
+    /* Adiciona espaçamento lateral na lista */
+
+    margin-top: 20px;
+    /* Adiciona espaço acima da lista */
+}
+
+li {
+    margin-bottom: 10px;
+    /* Dá espaço entre os itens da lista */
+
+    line-height: 1.5;
+    /* Melhora a leitura de itens mais longos */
+}
